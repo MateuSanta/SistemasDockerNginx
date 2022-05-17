@@ -1,9 +1,14 @@
 # SistemasDockerNginx
 
-Para descargar la imagen de Nginx en docker.`` docker pull nginx``
-Iniciaremos docker en el puerto 8080.``docker run --rm -d -p 8080:80 --name web nginx `` 
+Para descargar la imagen de Nginx en docker:
 
-#Configuración
+`` docker pull nginx``.
+
+Iniciaremos docker en el puerto 8080:
+
+``docker run --rm -d -p 8080:80 --name web nginx `` 
+
+# Configuración
 
 Se buscará el archivo en este directorio /usr/share/nginx/html y lo cambiaremos por el siguiente:
 /home/mateu/documentos/nginx/sites-avaliable
